@@ -9,6 +9,7 @@ RICARDO JOSÉ
 PAULO JUNIO
 
 CONSIDERAÇÕES:
+
 Tamanho do Conjunto de Dados:
 Para conjuntos de dados pequenos, a diferença de desempenho entre as estruturas de dados pode não ser tão significativa. No entanto, para conjuntos de dados maiores, a eficiência das operações de inserção e pesquisa se torna crucial.
 
