@@ -61,7 +61,7 @@ class BuscaBinaria:                                                   # Define a
                 inicio = meio + 1                               # Atualiza o índice de início para a metade superior do vetor de registros 
             else:
                 fim = meio - 1                                  # Atualiza o índice de fim para a metade inferior do vetor de registros 
-        return None
+        return None                                               # Retorna None se o CPF especificado não existir no vetor de registros
 
 class BuscaSequencial:                                             # Define a classe BuscaSequencial para implementar a busca sequencial 
     def __init__(self):                                        # Define o método construtor da classe BuscaSequencial 
