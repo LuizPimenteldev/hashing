@@ -108,7 +108,7 @@ for tamanho_conjunto in tamanhos_conjunto:                                      
     tempo_insercao_busca_sequencial = teste_insercao(busca_sequencial, dados)               # Testa o tempo de inserção dos dados no conjunto de registros 
     tempo_pesquisa_busca_sequencial = teste_pesquisa(busca_sequencial, dados, 100)          # Testa o tempo de pesquisa dos dados no conjunto de registros 
 
-    print("Tempos de inserção:")
+    print("\nTempos de inserção:")
     print("Hashing:", tempo_insercao_hashing)
     print("Busca Binária:", tempo_insercao_busca_binaria)
     print("Busca Sequencial:", tempo_insercao_busca_sequencial)
